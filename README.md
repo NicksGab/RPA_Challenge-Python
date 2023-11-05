@@ -35,7 +35,7 @@ Apesar de ser um projeto bem simples eu tinha o objetivo de concluir o desafio o
 
 Em minha primeira tentativa conclui o 100% na marca de 0.5 segundos no desafio, mas ainda estava lento pra mim.
 
-Então pensei que possivelmente poderia se dar ao tempo que o Selenium leva para identificar os elementos da página e para mim uma ótima solução para isso seria executar o JavaScript na página, afinal se o objetivo é o DOM quem melhor para essa tarefa do que o próprio JavaScript?
+Então pensei que possivelmente poderia se dar ao tempo que o Selenium leva para identificar os elementos HTML, e para mim uma ótima solução para isso seria executar o JavaScript na página, afinal se o objetivo é o DOM quem melhor para essa tarefa do que o próprio JavaScript?
 
 E realmente foi uma ótima solução, de 0.5 caiu para 0.184 segundos, um salto enorme na minha opinião, mas ainda poderia melhorar, e já que o JavaScript tinha funcionado muito bem, a página não trocava de aba e não via nenhum update na página além do próprio Form, pensei comigo mesmo. Por que não utilizar ainda mais o JavaScript? Extrair o máximo possível do JavaScript por meio do Selenium?
 
