@@ -1,7 +1,7 @@
 ﻿# RPA_Challenge em Python
 
 ## Onde foi utilizado?
-O site que foi utilizado para este projeto seja chama RPA Challenge (rpachallenge.com/), que é um desafio para os desenvolvedores RPA e tem como finalidade, além de ser desafiador, ser um teste de velocidade de seus RPAs.
+O site que foi utilizado para este projeto se chama RPA Challenge (rpachallenge.com/), que é um desafio para os desenvolvedores RPA e tem como finalidade, além de ser desafiador, ser um teste de velocidade de seus RPAs.
 
 ## O que preciso para reproduzir?
 Primeiramente precisamos ter em mente que este RPA foi desenvolvido em Python, então a primeira coisa que precisamos ter em nossa máquina instalado é o Python 3.11 ou superior.
@@ -35,7 +35,7 @@ Apesar de ser um projeto bem simples eu tinha o objetivo de concluir o desafio o
 
 Em minha primeira tentativa conclui o 100% na marca de 0.5s no desafio, mas ainda estava lento pra mim.
 
-Então pensei que possívelmente poderia se dar ao tempo que o Selenium leva para identificar os elementos da página e para mim uma ótima solução para isso seria executar o JavaScript na página, afinal se o objetivo é o DOM quem melhor para essa tarefa do que o próprio JavaScript?
+Então pensei que possivelmente poderia se dar ao tempo que o Selenium leva para identificar os elementos da página e para mim uma ótima solução para isso seria executar o JavaScript na página, afinal se o objetivo é o DOM quem melhor para essa tarefa do que o próprio JavaScript?
 
 E realmente foi uma ótima solução, de 0.5 caiu para 0.184 segundos, um salto enorme na minha opinião, mas ainda poderia melhorar e já que o JavaScript tinha funcionado muito bem e a página não trocava de aba e não via nenhum update na página além do próprio Form, pensei comigo mesmo, por que não utilizar ainda mais o JavaScript? Extrair o máximo possível do JavaScript por meio do Selenium?
 
@@ -47,6 +47,6 @@ E não muito surpreendentemente mas de um modo extremamente empolgante essa solu
 ## Notas finais
 Esse foi um projeto que criei depois que descobri esse site, pois fiquei extremamente animado com o desafio, afinal quem não gosta do sentimento de ser desafiado em algo que ama e colocar em prática tudo que vinha em mente?
 
-Inicialmente tinha feito esse desafio em Power Automate que puro levou 2minutos para concluir toda execução, isso foi um tanto quanto... descepcionante na hora... mas bom, é claro que utiliza-lo puro para isso não daria certo, até porque não é realmente a finalidade dele, mas consegui fazer esse tempo cair para 2 segundos e isso foi muito empolgante! 
+Inicialmente tinha feito esse desafio em Power Automate que puro levou 2minutos para concluir toda execução, isso foi um tanto quanto... decepcionante na hora... mas bom, é claro que utiliza-lo puro para isso não daria certo, até porque não é realmente a finalidade dele, mas consegui fazer esse tempo cair para 2 segundos e isso foi muito empolgante! 
 
 Mas bem isso é história pra outro repositório, se você leu até aqui, lhe agradeço imensamente pela atenção e espero que executando o projeto ou tentando otimizar ainda mais esse projeto você sinta a mesma sensação que eu senti, porque é simplesmente incrível!
