@@ -37,7 +37,7 @@ Em minha primeira tentativa conclui o 100% na marca de 0.5 segundos no desafio, 
 
 Então pensei que possivelmente poderia se dar ao tempo que o Selenium leva para identificar os elementos HTML, e para mim uma ótima solução para isso seria executar o JavaScript na página, afinal se o objetivo é o DOM quem melhor para essa tarefa do que o próprio JavaScript?
 
-E realmente foi uma ótima solução, de 0.5 caiu para 0.184 segundos, um salto enorme na minha opinião, mas ainda poderia melhorar, e já que o JavaScript tinha funcionado muito bem, a página não trocava de aba e não via nenhum update na página além do próprio Form, pensei comigo mesmo, por que não utilizar ainda mais o JavaScript? Extrair o máximo possível dessa linguagem por meio do Selenium?
+E realmente foi uma ótima solução, de 0.5 caiu para 0.184 segundos, um salto enorme na minha opinião, mas ainda poderia melhorar, e já que o JavaScript tinha funcionado muito bem, a página não trocava de aba e não via nenhum update na página além do próprio Form, pensei comigo mesmo, por que não utilizar ainda mais o JavaScript? Extrair o máximo possível dele por meio do Selenium?
 
 Foi exatamente o que tentei fazer, coletei todos os dados do arquivo .xlsx com python e os coloquei em um Array Multidimensional. A partir daí utilizei de puro JavaScript deixando-o com a responsabilidade de inserir os dados no campo correto e passar para o próxima página do formulário.
 
