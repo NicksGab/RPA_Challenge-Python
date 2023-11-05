@@ -47,6 +47,6 @@ E não muito surpreendentemente mas de um modo extremamente empolgante essa solu
 ## Notas finais
 Esse foi um projeto que criei depois que descobri esse site, pois fiquei extremamente animado com o desafio, afinal quem não gosta do sentimento de ser desafiado em algo que ama e colocar em prática tudo que vinha em mente?
 
-Inicialmente tinha feito esse desafio em Power Automate puro, e levou 2 minutos para concluir toda execução, isso foi um tanto quanto... decepcionante na hora... mas bom, é claro que utiliza-lo puro para isso não daria certo, até porque não é realmente a finalidade dele, mas consegui fazer esse tempo cair para 2 segundos e isso foi muito empolgante! 
+Inicialmente tinha feito esse desafio em Power Automate puro, que levou 2 minutos para concluir toda execução, isso foi um tanto quanto... decepcionante na hora... mas bom, é claro que utiliza-lo para isso não daria certo, até porque não é realmente a finalidade dele. Mas consegui fazer esse tempo cair para 2 segundos usando o javaScript no Power Automate e isso foi muito empolgante! 
 
 Mas bem isso é história pra outro repositório, se você leu até aqui, lhe agradeço imensamente pela atenção e espero que executando o projeto ou tentando otimizar ainda mais esse projeto você sinta a mesma sensação que eu senti, porque é simplesmente incrível!
