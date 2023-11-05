@@ -1,7 +1,7 @@
 ﻿# RPA_Challenge em Python
 
 ## Onde foi utilizado?
-O site que foi utilizado para este projeto seja chama RPA Challeng (rpachallenge.com/), que é um desafio para os desenvolvedores RPA e tem como finalidade, além de ser desafador, ser um teste de velocidade de seus RPAs.
+O site que foi utilizado para este projeto seja chama RPA Challenge (rpachallenge.com/), que é um desafio para os desenvolvedores RPA e tem como finalidade, além de ser desafiador, ser um teste de velocidade de seus RPAs.
 
 ## O que preciso para reproduzir?
 Primeiramente precisamos ter em mente que este RPA foi desenvolvido em Python, então a primeira coisa que precisamos ter em nossa máquina instalado é o Python 3.11 ou superior.
@@ -9,7 +9,7 @@ Primeiramente precisamos ter em mente que este RPA foi desenvolvido em Python, e
 Para isso iremos acessar o site de download do Python (https://www.python.org/downloads/) e concluir sua instalação normalmente.
 
 Agora que já temos o Python instalado precisamos das bibliotecas usadas nesse projeto.
-Presumindo que tenha algumas IDE instalada (VSCode, PyCharm) abra o terminal e digite os seguintes comando.
+Presumindo que tenha alguma IDE instalada (VSCode, PyCharm) abra o terminal e digite os seguintes comando.
 
 **pip install selenium**
 (Biblioteca de automação em Browser utilizada para a manipulação de DOM nesse projeto)
@@ -21,12 +21,12 @@ Pronto seu ambiente está pronto para rodar seu projeto RPA
 
 Lembrando que esse RPA utiliza o WebDriver do Google Chrome na versão 118.0.
 Caso o webdriver não funcione abra seu Chrome pela url "chrome://settings/help" anote a versão do seu Chrome.
-Em seguida acesse "https://chromedriver.chromium.org/downloads" faça o download do arquivo .rar do WebDriver para sua versão e extraia na pasta do projeto substituindo o atual 
+Em seguida acesse "https://chromedriver.chromium.org/downloads" faça o download do arquivo .rar do WebDriver para sua versão e extraia na pasta do projeto substituindo o atual. 
 
 Lembre-se que é importante manter o mesmo nome do arquivo anterior.
 
 ## Como reproduzir esse projeto?
-A reprodução é bastante simples, presumindo que tenha todas as dependências devidamente instaladas em seu ambiente, vá na pasta do projeto em seu computador (Caso não tenha, faça o download por este repositório) e rode o arquivo "main.py".
+A reprodução é bastante simples, presumindo que tenha todas as dependências devidamente instaladas em seu ambiente, vá na pasta do projeto em seu computador (Caso não tenha, faça o download por este repositório) e execute o arquivo "main.py".
 
 Pronto simples assim, logo em seguida verá seu Chrome abrir na página do RPA Challenge e toda execução automática do projeto.
 
@@ -39,7 +39,7 @@ Então pensei que possívelmente poderia se dar ao tempo que o Selenium leva par
 
 E realmente foi uma ótima solução, de 0.5 caiu para 0.184 segundos, um salto enorme na minha opinião, mas ainda poderia melhorar e já que o JavaScript tinha funcionado muito bem e a página não trocava de aba e não via nenhum update na página além do próprio Form, pensei comigo mesmo, por que não utilizar ainda mais o JavaScript? Extrair o máximo possível do JavaScript por meio do Selenium?
 
-Foi exatamente o que tentei fazer, coletei todos os dados do arquivo .xlsx com python e os coloquei em um Array Multidimensionl e a partir daí utilizei de puro JavaScript deixando-o com a responsabilidade de inserir os dados no campo correto e passar para o próxima página do formulário.
+Foi exatamente o que tentei fazer, coletei todos os dados do arquivo .xlsx com python e os coloquei em um Array Multidimensional e a partir daí utilizei de puro JavaScript deixando-o com a responsabilidade de inserir os dados no campo correto e passar para o próxima página do formulário.
 
 E não muito surpreendentemente mas de um modo extremamente empolgante essa solução deu muito certo! O que inicialmente para mim demorava 0.5s agora estava sendo finalizado em 0.053 segundos, quase 10x mais rápido! 
 
